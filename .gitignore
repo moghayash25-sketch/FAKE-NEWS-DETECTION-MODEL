@@ -1,0 +1,20 @@
+# Model checkpoints — too large for GitHub (>100MB limit)
+*.pt
+*.pth
+*.bin
+
+# Embeddings — very large
+*_embeds.pt
+
+# Data files
+*.tsv
+*.csv
+downloaded_images/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Kaggle
+*.zip
